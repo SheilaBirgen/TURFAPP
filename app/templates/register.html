@@ -1,0 +1,11 @@
+{% extends 'base.html'%}
+{% block content%}
+{{ super }}
+<h2>Register</h2>
+{% for error in errors %}
+
+<p>{{error}}</p>
+
+{% endfor%}
+
+{% endblock %}
